@@ -7,4 +7,5 @@ exports.init = init;
 function init() {
 	console.log("init()");
 }
-//Pie, bitches!
+
+document.getElementById('initial').onclick = function(){console.log("hello")};
