@@ -7,7 +7,15 @@ exports.init = init;
 function init() {
 	$('h1').click(function() {
 		alert('heaiguahiuhaghiuaghiuiu');
-	});
+	})
+
+	$('div').click(function() {
+		alert('haha why did you click that?  loser.')
+	})
+
+
+
+	;
 }
 
 
