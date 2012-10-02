@@ -5,15 +5,10 @@ var sp = getSpotifyApi(1),
 exports.init = init;
 
 function init() {
-	$('h1').click(function() {
-		alert('heaiguahiuhaghiuaghiuiu');
-	})
 
-	$('div').click(function() {
+	$('#bigass-button').click(function() {
 		alert('haha why did you click that?  loser.')
 	})
-
-
 
 	;
 }
